@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class Java9ProController {
     @RequestMapping("/login")
     public String loginPage(){
+        System.out.println("Login");
         return "login";
     }
 
